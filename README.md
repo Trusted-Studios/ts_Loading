@@ -13,3 +13,11 @@
 Use this simple script to give your server a touch of the old good days, when you where joining a new lobby in GTA Online to play with your friends!
 
 ![loading-gif-ezgif com-video-to-gif-converter (1)](https://github.com/Trusted-Studios/ts_loading/assets/79488475/e20620ac-7e8c-45d3-a175-4b126664074e)
+
+---
+
+Use the following export to trigger the loading screen from another resource:
+
+```lua
+exports["ts_Loading"]:TriggerLoadingScreen()
+```
