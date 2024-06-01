@@ -101,7 +101,12 @@ function Loading:Main()
 end
 
 function Loading:ToogleSound(state)
-    StartAudioScene(state and "MP_LEADERBOARD_SCENE" or "MP_LEADERBOARD_SCENE")
+    if state then
+        StartAudioScene("MP_LEADERBOARD_SCENE")
+        return
+    end
+
+    StopAudioScene("MP_LEADERBOARD_SCENE")
 end
 
 CreateThread(function()
