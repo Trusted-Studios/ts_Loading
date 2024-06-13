@@ -26,3 +26,6 @@ Config.CloudOpacity = 0.20
 
 --- Time in seconds to wait (e.g. to load things in the background)
 Config.WaitTime = 5
+
+--- Disable this if you're using e.g. a multi-character system
+Config.DircetTrigger = true

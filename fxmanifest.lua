@@ -8,7 +8,7 @@ games { 'gta5' }
 author 'Trusted-Studios | GTA:O Loading Script'
 description 'GTA:O Loading Script made by Trusted-Studios'
 repository 'https://shop.trusted-studios.eu'
-version '1.0.1'
+version '1.0.2'
 
 loadingscreen_manual_shutdown 'yes'
 

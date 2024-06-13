@@ -110,6 +110,10 @@ function Loading:ToogleSound(state)
 end
 
 CreateThread(function()
+    if not Config.DircetTrigger then
+        return
+    end
+
     Loading:Main()
 end)
 
